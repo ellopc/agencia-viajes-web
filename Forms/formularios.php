@@ -25,3 +25,14 @@
     <input type="number" id="tarifa_noche" name="tarifa_noche" required><br><br>
     <input type="submit" value="Registrar hotel"><br><br>
 </form>
+
+<!-- Formulario para buscar vuelos -->
+<form action="scripts/buscar_vuelos.php" method="get">
+    <label for="origen">Origen:</label>
+    <input type="text" id="origen" name="origen"><br><br>
+    <label for="destino">Destino:</label>
+    <input type="text" id="destino" name="destino"><br><br>
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha"><br><br>
+    <input type="submit" value="Buscar vuelos">
+</form>
